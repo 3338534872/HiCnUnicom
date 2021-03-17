@@ -77,7 +77,6 @@ if __name__ == '__main__':
 
     timestamp = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 
-    data = timestamp+"这部分自己按要求抓包提取"
-
+    data = timestamp+"2a834d71bd261a5e0aaf6ab3342de8514cc64a0c9681eff3ec5eab611d33ea7744c867ec8db155facefb7369767e66b051c2444c3fc476654ebe758de9a0aae8e6fe40826da007f6be96a7cc02fa2d5f”
     user.sign(data)
 
